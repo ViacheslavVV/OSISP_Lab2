@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSISP_Lab2", "OSISP_Lab2\OSISP_Lab2.csproj", "{ABDE73F2-E2EF-4E12-B08B-10C76BF81C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{65F04D3E-F7C0-4D6D-BDDD-953EFA633EA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDE73F2-E2EF-4E12-B08B-10C76BF81C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDE73F2-E2EF-4E12-B08B-10C76BF81C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDE73F2-E2EF-4E12-B08B-10C76BF81C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDE73F2-E2EF-4E12-B08B-10C76BF81C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F04D3E-F7C0-4D6D-BDDD-953EFA633EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F04D3E-F7C0-4D6D-BDDD-953EFA633EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F04D3E-F7C0-4D6D-BDDD-953EFA633EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F04D3E-F7C0-4D6D-BDDD-953EFA633EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
