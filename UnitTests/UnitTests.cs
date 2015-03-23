@@ -17,12 +17,16 @@
     public class UnitTests
     {
         /// <summary>
-        /// The test method 1.
+        /// The test method 1. Get types and their public properties.
         /// </summary>
         [TestMethod]
         public void TestMethod1()
         {
             var types  = typeof(RedColor).Assembly.GetTypes();
+            foreach (var type in types)
+            {
+               var properties = type.GetProperties();
+            }
         }
 
         /// <summary>
