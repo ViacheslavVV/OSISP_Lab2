@@ -14,6 +14,7 @@ namespace OSISP_Lab2
     /// <summary>
     /// The alternative name attribute.
     /// </summary>
+    [AlternativeName(Name = "Alternative")]
     public class AlternativeNameAttribute : Attribute
     {
         /// <summary>

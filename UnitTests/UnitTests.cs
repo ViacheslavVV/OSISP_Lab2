@@ -59,5 +59,24 @@
                 }
             }
         }
+
+        /// <summary>
+        /// The test method 3.
+        /// </summary>
+        [TestMethod]
+        public void TestMethod3()
+        {
+            const string AttributeName = "Red";
+
+            var types = typeof(RedColor).Assembly.GetTypes();
+            foreach (var type in types)
+            {
+                var alternativeNameAttribute = (AlternativeNameAttribute)type.GetCustomAttribute(typeof(AlternativeNameAttribute));
+                if (alternativeNameAttribute.Name == AttributeName)
+                {
+                    var newObject = Activator.CreateInstance(type);
+                }
+            }
+        }
     }
 }
